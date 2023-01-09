@@ -11,7 +11,7 @@
 <body>
     <h2>EDIT DATA KARYAWAN</h2>
     <br />
-    <a href="home.php?page=karyawan">KEMBALI</a>
+    <a href="../home.php?page=karyawan">KEMBALI</a>
     <br />
     <br />
     <?php
@@ -28,18 +28,25 @@
                         <input type="hidden" name="nik" value="<?php echo $d['nik']; ?>">
                         <input type="text" name="namakaryawan" value="<?php echo $d['namakaryawan']; ?>">
                     </td>
+                </tr>
+                <tr>
                     <td>Telepon</td>
                     <td>
                         <input type="number" name="telepon" value="<?php echo $d['telepon']; ?>">
                     </td>
+                </tr>
+                <tr>
                     <td>Jabatan</td>
                     <td>
                         <input type="text" name="jabatan" value="<?php echo $d['jabatan']; ?>">
                     </td>
+                    <tr />
+                <tr>
                     <td>Sandi</td>
                     <td>
                         <input type="text" name="sandi" value="<?php echo $d['sandi']; ?>">
                     </td>
+                </tr>
                 <tr>
                     <td></td>
                     <td><input type="submit" value="SIMPAN"></td>

@@ -28,6 +28,7 @@
                         <input type="hidden" name="idkategori" value="<?php echo $d['idkategori']; ?>">
                         <input type="text" name="namakategori" value="<?php echo $d['namakategori']; ?>">
                     </td>
+                </tr>
                 <tr>
                     <td><input type="submit" value="SIMPAN"></td>
                 </tr>

@@ -11,7 +11,7 @@
 <body>
     <h2>EDIT DATA PRODUK</h2>
     <br />
-    <a href="home.php?page=produk">KEMBALI</a>
+    <a href="../home.php?page=produk">KEMBALI</a>
     <br />
     <br />
     <?php

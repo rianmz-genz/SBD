@@ -9,37 +9,32 @@
 </head>
 
 <body>
-    <h2>EDIT DATA PRODUK</h2>
+    <h2>EDIT DATA jual</h2>
     <br />
-    <a href="home.php?page=produk">KEMBALI</a>
+    <a href="../home.php?page=penjualan">KEMBALI</a>
     <br />
     <br />
     <?php
     include '../koneksi.php';
-    $kdproduk = $_GET['kdproduk'];
-    $data = mysqli_query($koneksi, "select * from tbproduk where kdproduk='$kdproduk'");
+    $kdjual = $_GET['kdjual'];
+    $data = mysqli_query($koneksi, "select * from tbpenjualan where kdjual='$kdjual'");
     while ($d = mysqli_fetch_array($data)) {
     ?>
-        <form method="post" action="editproduk_action.php">
+        <form method="post" action="editpenjualan_action.php">
             <table>
                 <tr>
-                    <td>Nama produk</td>
+                    <td>Tanggal Penjualan</td>
                     <td>
-                        <input type="hidden" name="kdproduk" value="<?php echo $d['kdproduk']; ?>">
-                        <input type="text" name="namaproduk" value="<?php echo $d['namaproduk']; ?>">
+                        <input type="hidden" name="kdjual" value="<?php echo $d['kdjual']; ?>">
+                        <input type="date" name="tgljual" value="<?php echo $d['tgljual']; ?>">
                     </td>
-                    <td>Id Kategori</td>
+                </tr>
+                <tr>
+                    <td>Total Penjualan</td>
                     <td>
-                        <input type="text" name="idkategori" value="<?php echo $d['idkategori']; ?>">
+                        <input type="number" name="totaljual" value="<?php echo $d['totaljual']; ?>">
                     </td>
-                    <td>Stok produk</td>
-                    <td>
-                        <input type="number" name="stok" value="<?php echo $d['stok']; ?>">
-                    </td>
-                    <td>Harga</td>
-                    <td>
-                        <input type="text" name="harga" value="<?php echo $d['harga']; ?>">
-                    </td>
+                </tr>
                 <tr>
                     <td></td>
                     <td><input type="submit" value="SIMPAN"></td>
@@ -55,8 +50,8 @@
         $page = $_GET['page'];
 
         switch ($page) {
-            case 'produk':
-                include "../tampilproduk.php";
+            case 'penjualan':
+                include "../tampilpenjualan.php";
                 break;
             default:
                 echo "<center><h3>Maaf. Halaman tidak di temukan !</h3></center>";

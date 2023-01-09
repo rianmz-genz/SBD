@@ -3,16 +3,14 @@
 include '../koneksi.php';
 
 // menangkap data yang di kirim dari form
-$kdproduk = $_POST['kdproduk'];
-$namaproduk= $_POST['namaproduk'];
-$idkategori= $_POST['idkategori'];
-$stok= $_POST['stok'];
-$harga= $_POST['harga'];
+$kdjual = $_POST['kdjual'];
+$tgljual= $_POST['tgljual'];
+$totaljual= $_POST['totaljual'];
 
 // update data ke database
-mysqli_query($koneksi,"update tbproduk set namaproduk='$namaproduk', idkategori='$idkategori', stok='$stok', harga='$harga' where kdproduk='$kdproduk'");
+mysqli_query($koneksi,"update tbpenjualan set tgljual='$tgljual', totaljual='$totaljual' where kdjual='$kdjual'");
 
 // mengalihkan halaman kembali tampil pelanggan
-header("location:../home.php?page=produk");
+header("location:../home.php?page=penjualan");
 
 ?>

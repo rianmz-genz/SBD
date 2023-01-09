@@ -11,7 +11,7 @@
 <body>
     <h2>EDIT DATA pemasok</h2>
     <br />
-    <a href="home.php?page=pemasok">KEMBALI</a>
+    <a href="../home.php?page=pemasok">KEMBALI</a>
     <br />
     <br />
     <?php
@@ -28,18 +28,25 @@
                         <input type="hidden" name="idpemasok" value="<?php echo $d['idpemasok']; ?>">
                         <input type="text" name="namapemasok" value="<?php echo $d['namapemasok']; ?>">
                     </td>
+    </tr>
+    <tr>
                     <td>Alamat Pemasok</td>
                     <td>
                         <input type="text" name="alamatpemasok" value="<?php echo $d['alamatpemasok']; ?>">
                     </td>
+    </tr>
+    <tr>
                     <td>Telepon Pemasok</td>
                     <td>
                         <input type="number" name="teleponpemasok" value="<?php echo $d['teleponpemasok']; ?>">
                     </td>
+    </tr>
+    <tr>
                     <td>pic</td>
                     <td>
                         <input type="text" name="pic" value="<?php echo $d['pic']; ?>">
                     </td>
+    </tr>
                 <tr>
                     <td></td>
                     <td><input type="submit" value="SIMPAN"></td>
