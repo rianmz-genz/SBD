@@ -20,7 +20,14 @@
 <body>
 <h2>DATA KATEGORI</h2>
 	<br/>
-	<a href="kategoriaction/tambahkategori.php">+ TAMBAH KATEGORI</a>
+	<a href="kategoriaction/tambahkategori.php"
+    style="	background: #f3f4f6;
+	text-decoration: none;
+	cursor: pointer;
+	border: 1px solid black;
+    color: black;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;">+ TAMBAH KATEGORI</a>
 	<br/>
 	<br/>
 	<table border="1">

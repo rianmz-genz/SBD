@@ -20,7 +20,7 @@
 			</tr>
 			<tr>
 				<td>Tanggal penjualan</td>
-				<td><input type="date" name="tgljual"></td>
+				<td><input required type="date" name="tgljual"></td>
 			</tr>
             <tr>
                 <td>Nik Karyawan</td>

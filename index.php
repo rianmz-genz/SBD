@@ -33,7 +33,7 @@
                 <input type="text" name="username" style="margin-top: .2rem; background:#f3f4f6; outline: none; border: 1px solid black; border-radius: 0.3rem " /></br>
                 <p>Password</p>
                 <input type="password" style="margin-top: .2rem; background:#f3f4f6; outline: none; border: 1px solid black; border-radius: 0.3rem " name="psw" /></br></br>
-                <input type="submit" value="Login" />
+                <input type="submit" style="background: transparent; padding: 0.25rem 2rem ; border-radius: .75rem; cursor: pointer; border: 1px solid black;" value="Login" />
             </font>
         </form>
     </div>

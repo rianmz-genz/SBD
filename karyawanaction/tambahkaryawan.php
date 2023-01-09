@@ -20,7 +20,7 @@
 			</tr>
 			<tr>
 				<td>Nama Karyawan</td>
-				<td><input type="text" name="namakaryawan"></td>
+				<td><input required type="text" name="namakaryawan"></td>
 			</tr>
             <tr>
                 <td>Telepon Karyawan</td>

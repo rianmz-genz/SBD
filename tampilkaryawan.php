@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Karyawan</title>
     <style>
         body{
             width: 100%;
@@ -20,16 +21,24 @@
 <body>
 <h2>DATA KARYAWAN</h2>
 	<br/>
-	<a href="karyawanaction/tambahkaryawan.php">+ TAMBAH Karyawan</a>
+	<a href="karyawanaction/tambahkaryawan.php" 
+    style="	background: #f3f4f6;
+	text-decoration: none;
+	cursor: pointer;
+	border: 1px solid black;
+    color: black;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;">+ TAMBAH Karyawan</a>
 	<br/>
 	<br/>
-	<table border="1">
-		<tr>
+	<table border="1px">
+		<tr style="background: #f3f4f6;">
 			<th>No</th>
 			<th>Id Karyawan</th>
 			<th>Nama Karyawan</th>
 			<th>Alamat</th>
 			<th>Telepon</th>
+			<th>Sandi</th>
 			<th>Aksi</th>
 		</tr>
 		<?php 

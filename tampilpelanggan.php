@@ -7,7 +7,14 @@
 
 	<h2>DATA PELANGGAN</h2>
 	<br/>
-	<a href="tambahpelanggan.php">+ TAMBAH PELANGGAN</a>
+	<a href="tambahpelanggan.php"
+	style="	background: #f3f4f6;
+	text-decoration: none;
+	cursor: pointer;
+	border: 1px solid black;
+    color: black;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;">+ TAMBAH PELANGGAN</a>
 	<br/>
 	<br/>
 	<table border="1">

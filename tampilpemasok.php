@@ -20,7 +20,14 @@
 <body>
 <h2>DATA PEMASOK</h2>
 	<br/>
-	<a href="pemasokaction/tambahpemasok.php">+ TAMBAH PEMASOK</a>
+	<a href="pemasokaction/tambahpemasok.php"
+    style="	background: #f3f4f6;
+	text-decoration: none;
+	cursor: pointer;
+	border: 1px solid black;
+    color: black;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;">+ TAMBAH PEMASOK</a>
 	<br/>
 	<br/>
 	<table border="1">

@@ -20,7 +20,7 @@
 			</tr>
 			<tr>
 				<td>Nama produk</td>
-				<td><input type="text" name="namaproduk"></td>
+				<td><input required type="text" name="namaproduk"></td>
 			</tr>
             <tr>
                 <td>Id Kategori</td>

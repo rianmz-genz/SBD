@@ -20,7 +20,7 @@
 			</tr>
 			<tr>
 				<td>Nama Pemasok</td>
-				<td><input type="text" name="namapemasok"></td>
+				<td><input required type="text" name="namapemasok"></td>
 			</tr>
             <tr>
                 <td>Alamat Pemasok</td>
