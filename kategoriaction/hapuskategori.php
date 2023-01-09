@@ -1,0 +1,15 @@
+<?php 
+// koneksi database
+include '../koneksi.php';
+
+// menangkap data id yang di kirim dari url
+$idkategori = $_GET['idkategori'];
+
+
+// menghapus data dari database
+mysqli_query($koneksi,"delete from tbkategori where idkategori='$idkategori'");
+
+// mengalihkan halaman kembali ke home.php
+header("location:../home.php?page=kategori");
+
+?>
