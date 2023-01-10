@@ -10,7 +10,7 @@
 <body>
 	<div class="content">
 		<header style="background: transparent; border: none;">
-			<h1 class="judul">AMIKOM PURWOKERTO MART</h1>
+			<h1 class="judul">SOEKADJAN MART</h1>
 			<h3 class="deskripsi">Jalan Jajan No. 1 Purwokerto Utara</h3>
 		</header>
 
